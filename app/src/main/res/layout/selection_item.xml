@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.flexbox.FlexboxLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:flexWrap="wrap"
+    app:alignItems="stretch"
+    android:layout_margin="8dp"
+    app:alignContent="stretch"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txt_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coba"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/pilihan_bg"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="15dp" />
+
+</com.google.android.flexbox.FlexboxLayout>

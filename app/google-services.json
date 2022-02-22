@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "267205260396",
+    "firebase_url": "https://lungsbot.firebaseio.com",
+    "project_id": "lungsbot",
+    "storage_bucket": "lungsbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267205260396:android:37fb9b8bc4b1108edcd449",
+        "android_client_info": {
+          "package_name": "com.vandina.lungsbotkt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267205260396-dh7uspjufg3u8mupa1k25hml519t55kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqZVB3ngp8Y2_eM7iSmmfcE7WhI60CRyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267205260396-dh7uspjufg3u8mupa1k25hml519t55kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

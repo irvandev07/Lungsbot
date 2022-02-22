@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/bottomSheetContainer"
+    android:background="@drawable/bottom_sheet_bg"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_corner_20"
+        android:backgroundTint="@color/grey_200"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Aplikasi ini terdapat beebrapa menu penting yang harus anda ketahui sebelum anda memulai aktivitas pada aplikasi ini. ada beberapa menu yang dapat anda akses secara gratis dengan rincian sebagai berikut :"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Login / Registrasi"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagi user yang belum memiliki akun silahkan 'klik' SIGN UP untuk mendaftar, bagi user sudah memiliki akun silahkan login untuk memulai aktivitas pada aplikasi ini."
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Homepage"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu ini memuat informasi dan artikel seputar asma, informasi tersebut didapatkan dari beberapa sumber yang kami pilih."
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Chatbot"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pada menu chatbot anda dapat berinteraksi dengan Lubo, asisten virtual yang akan melayani anda seputar asma. Lubo dapat mendiagnosa beberapa jenis asma seperti Asma ringan, Asma Sedang dan Asma Berat. setelah berhasil mendiagnosa keluhan anda lubo akan memberikan beberapa informasi yang harus anda lakukan seperti konsumsi obat, hal apa saja yang perlu anda lalukan dan mencari apotik terdekat untuk mencari obat rekomendasi dari Lubo."
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Profile"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Di menu profile tentu ada beberapa informasi tentang akun anda dan melihat riwayat hasil diagnosa bersama Lubo. anda dapat merubah nama dan password pada menu 'Pengaturan'"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

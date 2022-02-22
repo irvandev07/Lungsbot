@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lungsbot</string>
+    <string name="title_home">Home</string>
+    <string name="title_chat">Chatbot</string>
+    <string name="title_profile">Profil</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="smiley_text">&#x1F60A;</string>
+    <string name="artikel1">Asma adalah salah satu jenis penyakit yang ditandai dengan penyempitan dan peradangan saluran pernapasan yang mengakibatkan sesak (sulit bernapas).</string>
+    <string name="judul1">Apa itu Asma ?</string>
+    <string name="artikel2">Bakteri yang berasal dari debu dapat menjadi pemicu utama faktor risiko dari asma. Bakteri tersebut bernama endotoxin yang umumnya berada pada perkakas rumah, terutama di kamar tidur yang dapat menimbulkan gejala asma.</string>
+    <string name="judul2">Faktor Resiko Asma</string>
+    <string name="artikel3">Asma dapat disebabkan oleh debu, asap rokok, bulu binatang, udara dingin, aktivitas fisik,  infeksi virus atau bahkan terpapar zat kimia. Namun, hingga kini penyebab dari asma belum diketahui secara pasti.</string>
+    <string name="judul3">Penyebab Asma</string>
+    <string name="title_activity_artikel">ArtikelActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
